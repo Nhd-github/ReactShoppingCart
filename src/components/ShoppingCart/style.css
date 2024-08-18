@@ -39,7 +39,7 @@
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("./img/Shirt.png");
+    background-image: url("../../../public/img/Shirt.png");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;

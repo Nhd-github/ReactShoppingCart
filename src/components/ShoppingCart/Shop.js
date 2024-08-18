@@ -93,15 +93,14 @@ export default class Shop extends Component {
                         ))}
 
                     </div>
-
                     <button onClick={this.clearShoppingCart} className="btn btn-primary btn-purchase" type="button" id="remove-all-product">
                         Empty Cart
                     </button>
                 </section>
                 <footer className="main-footer">
-                    <div class="container main-footer-container">
-                        <h3 class="band-name">The Generics</h3>
-                        <ul class="nav footer-nav">
+                    <div className="container main-footer-container">
+                        <h3 className="band-name">The Generics</h3>
+                        <ul className="nav footer-nav">
                             {this.state.social.map(social => (
                                 <Social {...social} key={social.id} />
                             ))}

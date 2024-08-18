@@ -1,11 +1,10 @@
 
 
-import Shop from './components/ShoppingCart/Shop'
-
+import Shop from './components/ShoppingCart/Shop';
 
 function App() {
   return (
-    <div className="App">
+    <div >
 
       <Shop />
 
